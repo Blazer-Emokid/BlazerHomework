@@ -1,27 +1,27 @@
-package homework;
+package homework1;
 
 import java.util.Scanner;
 
 public class homework1_6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int A, B, C;
+        int a, b, c;
         System.out.println("Введите целое число A : ");
-        A = scanner.nextInt();
+        a = scanner.nextInt();
         System.out.println("Введите целое число B : ");
-        B = scanner.nextInt();
+        b = scanner.nextInt();
 
         System.out.println("До обмена значения были такими:");
-        System.out.println("A = " + A);
-        System.out.println("B = " + B);
+        System.out.println("A = " + a);
+        System.out.println("B = " + b);
 
-        C = A;
-        A = B;
-        B = C;
+        c = a;
+        a = b;
+        b = c;
 
         System.out.println("После обмена:");
-        System.out.println("A = " + A);
-        System.out.println("B = " + B);
+        System.out.println("A = " + a);
+        System.out.println("B = " + b);
 
         scanner.close();
     }

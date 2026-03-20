@@ -1,4 +1,4 @@
-package homework;
+package homework1;
 
 import java.util.Scanner;
 
@@ -18,7 +18,6 @@ public class homework1_4 {
         } else {
             System.out.println("Ошибка! Число должно иметь ненулевую дробную часть.");
         }
-
         scanner.close();
     }
 }
