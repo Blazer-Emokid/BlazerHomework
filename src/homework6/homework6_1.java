@@ -149,6 +149,5 @@ public class homework6_1 {
         methodWithTryCatchFinally();
 
         System.out.println("\n=== Программа завершена ===");
-
     }
 }
